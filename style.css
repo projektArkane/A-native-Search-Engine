@@ -33,8 +33,6 @@ h1 {
      margin-top: 0.4em;
      height: 1.15em;
      font-size: 8.5em;
-     font-family: 'Special Elite', cursive;
-     font-family: 'Averia Sans Libre', cursive;
      font-family: 'WindSong', cursive;
      text-shadow: 0 0 15px #FFFFFF;
      color: #0a0908;
@@ -100,8 +98,8 @@ h3 {
      /* font-family: 'Gloria Hallelujah', cursive; */
      font-family: 'Rubik', sans-serif;
      /* color: rgba(0, 0, 0, 0.726); */
-     color: #070707;
-     text-shadow: 0px 2px 10px #ffffff;
+     color: #070707f5;
+     text-shadow: 0px 1px 3px #ffffff;
      line-height: 1.5em;
      font-size: 1.25em;
      text-align: center;
