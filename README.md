@@ -1,4 +1,4 @@
-# This a Search-Engine
+# This a Search-Engine. It's called Findia.
 #### Currently, It is in a very early development phase.
 #### The aim is to build a native search engine for our country and to reduce our dependency on other nations.
 #### Right now it works, but is a dummy and uses DuckDuckGo (An another search engine) to fetch it's search results.
