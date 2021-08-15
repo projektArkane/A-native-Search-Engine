@@ -99,8 +99,9 @@ input:hover {
 h3 {
      /* font-family: 'Gloria Hallelujah', cursive; */
      font-family: 'Rubik', sans-serif;
-     color: rgba(0, 0, 0, 0.726);
-     text-shadow: 0 0 15px #FFFFFF;
+     /* color: rgba(0, 0, 0, 0.726); */
+     color: #070707;
+     text-shadow: 0px 2px 5px #ffffff;
      line-height: 1.5em;
      font-size: 1.25em;
      text-align: center;
@@ -219,7 +220,8 @@ svg {
 
 .item-link:hover {
     color: #7209b7;
-    color: #ff5714;
+    /* color: #ff5714; */
+    color: #38b000;
 }
 
 .foot-container {
