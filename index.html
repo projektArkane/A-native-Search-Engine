@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@700&family=Gloria+Hallelujah&family=Nunito:wght@700&family=Rubik:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=WindSong:wght@500&display=swap');
+    </style>
+    <title>Findia Inc.</title>
+</head>
+
+<body>
+    <div id="bg"></div>
+    <div class="container">
+        <div class="main">
+            <div class="tab">
+                <ul class="tab-items">
+                    <li class="tab-item">
+                        <a class="item-link" onclick="select(this)" href="#">
+                            <i class="fas fa-home"></i>‍ Home</a>
+                    </li>
+                    <li class="tab-item">
+                        <a class="item-link" onclick="select(this)" href="#"> About</a>
+                    </li>
+                    <li class="tab-item">
+                        <a class="item-link" onclick="select(this)" href="#">Images </a>
+                    </li>
+                    <li class="tab-item">
+                        <a class="item-link" onclick="select(this)" href="#">Videos</a>
+                    </li>
+                    <li class="tab-item">
+                        <a class="item-link" onclick="select(this)" href="#">
+                            <i class="fas fa-user"></i>‍ Login</a>
+                    </li>
+                    <div class="tab-indicator"></div>
+                </ul>
+            </div>
+
+            <section>
+                <h1>Findia</h1>
+                <h3>Indias own search engine!</h3>
+                <div id="sbox">
+                    <form action="https://duckduckgo.com/" id="">
+                        <input type="search" placeholder="enter your search term..." id="finding" name="q">
+                    </form>
+                </div>
+            </section>
+        </div>  
+    </div>
+
+
+    <div class="foot-container">
+            <!-- <div class="foot-items foot-1">
+                    <h4>About</h4>
+            </div>
+            <div class="foot-items foot-2">
+                    <h4>Contact</h4>
+            </div>
+            <div class="foot-items foot-3">
+                    <h4>Phone</h4>
+            </div> -->
+            <h4>Copyright &copy; 2021, Findia Inc.</h4>
+    </div>
+    <script src="https://kit.fontawesome.com/dd8c49730d.js"></script>
+    <script>
+        function select(link) {
+            const item = link.parentNode
+            const tabs = item.parentNode
+            const index = Array.prototype.indexOf.call(tabs.children, item)
+            const items = tabs.querySelectorAll('.tab-item')
+
+            tabs.style.setProperty('--index', index + 1)
+            items.forEach(item => item.classList.remove('active'))
+            item.classList.add('active')
+        }
+    </script>
+</body>
+
+</html>
