@@ -1,5 +1,5 @@
 # This is a Search-Engine. It's called Findia.
-![](Images/HP.PNG)
+![](Images/Homepage.PNG)
 
 ---
 
