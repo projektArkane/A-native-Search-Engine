@@ -13,5 +13,5 @@ https://projektarkane.github.io/A-native-Search-Engine/
 -  For more information, check out this link https://cutt.ly/ZQCx1EZ
 
 
-#### Note : The goal is not to compete with the big players in the market like Google or Bing (that's a little too far-fetched right now), but to build something which we can proudly call our own.
+#### Note : The goal is not to compete with the big players in the market like Google or Bing (that's too far-fetched right now), but to build something which we can proudly call our own.
 ##### *psst!, but don't worry, every empire has to fall one day; what goes up must come down! What we can do at the least is, look for opportunities and try our best!* :100:
