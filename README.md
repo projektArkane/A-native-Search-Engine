@@ -3,6 +3,8 @@
 
 ---
 
+https://projektarkane.github.io/A-native-Search-Engine/
+
 - Currently, It is in its very early development phase. :hammer_and_wrench:
 - The aim is to build a native search engine for our country and to reduce our dependency on other nations.
 - Right now it works, but is a dummy and uses DuckDuckGo (An another search engine) to fetch it's search results.
