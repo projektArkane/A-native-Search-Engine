@@ -1,7 +1,4 @@
 # This is a Search-Engine. It's called Findia.
-![](Images/HP.PNG)
-
----
 
 https://projektarkane.github.io/A-native-Search-Engine/
 
